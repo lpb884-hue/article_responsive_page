@@ -1,0 +1,141 @@
+
+  
+  .content {
+    max-width: 600px;      
+    margin: 0 auto;        
+    padding: 60px 20px; 
+  }
+
+  body
+  {
+      margin: 50px;
+      padding: 50px;
+      color: yellowgreen;
+      background-color: coral;
+  }
+  
+  h1 {
+      font-size: 40px;
+      text-align: center;
+      color: aquamarine;
+  }
+  
+  h2 {
+      font-size: 22px;
+      text-align: center;
+      margin-bottom: 40px;
+  }
+  
+  p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: whitesmoke;
+  }
+  
+
+  @media screen and (max-width: 1024px) {
+    body {
+      padding: 60px;
+      background-color: blueviolet;
+    }
+  
+    h1 {
+      font-size: 36px;
+      color: brown;
+    }
+  
+    h2 {
+      font-size: 20px;
+      color: indigo;
+    }
+  
+    p {
+      font-size: 15px;
+      line-height: 1.55;
+      color: violet;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    body {
+      padding: 50px;
+      background-color: teal;
+    }
+  
+    h1 {
+      font-size: 32px;
+      font-family: "Times New Roman", serif;
+      color: forestgreen;
+    }
+  
+    h2 {
+      font-size: 18px;
+      color: khaki;
+    }
+  
+    p {
+      font-size: 15px;
+      line-height: 1.5;
+      color: purple;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    body {
+      padding: 40px;
+      background-color: olive;
+    }
+  
+    h1 {
+      font-size: 28px;
+      color: mediumaquamarine;
+    }
+  
+    h2 {
+      font-size: 17px;
+      color: lightcoral;
+    }
+  
+    p {
+      font-size: 14px;
+      color: chartreuse;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    body {
+      padding: 30px;
+      background-color: lightblue;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    h2 {
+      font-size: 16px;
+    }
+  
+    p {
+      font-size: 14px;
+      line-height: 1.45;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    body {
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 20px;
+      color: red;
+    }
+  
+    h2 {
+      font-size: 14px;
+    }
+  
+    p {
+      font-size: 13px;
+      line-height: 1.4;
+    }
+  }
+  
